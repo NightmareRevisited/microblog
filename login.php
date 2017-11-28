@@ -7,7 +7,7 @@
 
 <form action="welcome.php" method="post">
     用户名: <input type="text" name="username">
-    密码: <input type="text" name="password">
+    密码: <input type="password" name="password">
     <br>
     <input type="submit" value="登陆">
 </form>

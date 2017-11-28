@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+
 
 $servername = "localhost:3306";
 $username = "root";
@@ -27,8 +27,8 @@ if ($result->num_rows > 0) {
     }
     else {
         $message =  "欢迎回来 ， $username ！"."<br>"."三秒后跳转至首页……";
-        $url = "http://microblog.com/main.php";
-        $_SESSION['username'] = $username;
+        $url = "http://microblog.com/main.php?username=$username";
+
 
     }
 }
