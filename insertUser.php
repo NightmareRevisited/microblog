@@ -14,22 +14,27 @@ if ($conn->connect_error) {
 }
 $username = $_POST['username'];
 $password = $_POST['password'];
-$sql1 = "SELECT * FROM login_info where username='$username' ";
-$result = $conn->query($sql1);
-if ($result->num_rows > 0) {
-    $message = "注册失败，该用户名已存在"."<br>"."3秒后返回注册页面……";
+if ($username=='' or $password=='') {
+    $message = "注册失败，用户名或密码不能为空！3秒后返回注册页面……";
     $url = "http://microblog.com/register.php";
 }
 else {
-    $sql2 = "INSERT INTO login_info (username,password) VALUES ('$username','$password')";
-    if ($conn->query($sql2) === TRUE) {
-        $message = "注册成功" ."<br>"."3秒后返回登陆页面……";
-        $url = "http://microblog.com/login.php";
+    $sql1 = "SELECT * FROM login_info where username='$username' ";
+    $result = $conn->query($sql1);
+    if ($result->num_rows > 0) {
+        $message = "注册失败，该用户名已存在" . "<br>" . "3秒后返回注册页面……";
+        $url = "http://microblog.com/register.php";
     } else {
-        echo "Error:" . $sql . "<br>" . $conn->error;
+        $sql2 = "INSERT INTO login_info (username,password) VALUES ('$username','$password')";
+        if ($conn->query($sql2) === TRUE) {
+            $message = "注册成功" . "<br>" . "3秒后返回登陆页面……";
+            $url = "http://microblog.com/login.php";
+        } else {
+            echo "Error:" . $sql . "<br>" . $conn->error;
+        }
     }
+    $conn->close();
 }
-$conn->close();
 ?>
 
 <html>
