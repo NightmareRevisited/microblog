@@ -16,6 +16,9 @@ if ($conn->connect_error) {
 $username = $_POST["username"];
 $password = $_POST["password"];
 
+if (is_null($username) and is_null($password)) {
+    header('Location:http://microblog.com/login.php');
+}
 $sql = "SELECT * FROM login_info where username='$username' ";
 $result = $conn->query($sql);
 
