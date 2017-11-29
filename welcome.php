@@ -26,8 +26,9 @@ if ($result->num_rows > 0) {
         $url = "http://microblog.com/login.php";
     }
     else {
+        $password=base64_encode($password);
         $message =  "欢迎回来 ， $username ！"."<br>"."三秒后跳转至首页……";
-        $url = "http://microblog.com/main.php?username=$username";
+        $url = "http://microblog.com/main.php?username=$username&password=$password";
 
 
     }
