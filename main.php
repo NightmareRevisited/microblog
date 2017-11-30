@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Created by PhpStorm.
+ * Author: Yang Changning (thevile@126.com)
+ * Time: 2017/11/28 15:34
+ */
+
 error_reporting(E_ALL^E_NOTICE);
 $username=$_GET['username'];
 $password=base64_decode($_GET['password']);
@@ -28,6 +35,21 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
     </title>
 </head>
 <body>
+
+<?php
+$sql3 = "SELECT * FROM friendrequest where username='$username' and readstatus='0'";
+$fresult = $conn->query($sql3);
+
+?>
+<a href="http://microblog.com/messagebox.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">好友请求(<?php echo $fresult->num_rows;?>)</a>
+&nbsp&nbsp&nbsp
+<a href="http://microblog.com/seekuser.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">查找用户</a>
+<style>
+    a:visited {color: blue}
+</style>
+
+
+<br>
 <form action ='main.php?username=<?php echo $username; ?>' method = 'post'>
     <label style="vertical-align: top"> 发布状态： </label>
     <textarea rows='8' cols="50" wrap="virtual" name="content"></textarea>

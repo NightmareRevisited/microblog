@@ -1,10 +1,10 @@
 <?php
 
 /**
-* Created by PhpStorm.
-* Author: Yang Changning (thevile@126.com)
-* Time: 2017/11/30 1:14
-*/
+ * Created by PhpStorm.
+ * Author: Yang Changning (thevile@126.com)
+ * Time: 2017/11/30 1:14
+ */
 
 error_reporting(E_ALL^E_NOTICE);
 $username=$_GET['username'];
@@ -30,19 +30,26 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>信息箱</title>
+    <title>查找用户</title>
 </head>
 <body>
 
-<?php
-$sql2 = "SELECT * FROM friendrequest where username='$username' and readstatus='0'";
-$fresult = $conn->query($sql2);
-$unread_rownum = $fresult->num_rows;
-echo "<ul>";
-for ($i=0;$i<$unread_rownum;$i++) {
+<form action="seekuser.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>" method="post">
+    <input type="text" name="seekuser">
+    &nbsp&nbsp&nbsp
+    <input type="submit" value="查找相关用户">
+</form>
+<br>
 
+<?php
+$seekstr = $_POST['seekuser'];
+if ($seekstr) {
+    $sql2 = "SELECT * FROM login_info WHERE username LIKE '%$seekstr%'";
+    $seekresult = $conn->query($sql2);
+    $seek_rownum = $seekresult->num_rows;
+    echo "一共有$seek_rownum"."个相关用户";
+    $rows = $seekresult->fetch_assoc();
 }
-echo "</ul>";
 ?>
 
 </body>
