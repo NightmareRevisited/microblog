@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f5accc-b57e-4afc-adce-4f83ac03281e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/seekuser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messagebox.php" afterPath="$PROJECT_DIR$/messagebox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seekuser.php" afterPath="$PROJECT_DIR$/seekuser.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,13 +92,15 @@
       <file leaf-file-name="seekuser.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seekuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+            <state relative-caret-position="422">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
-                <marker date="1512024565560" expanded="true" signature="458:509" ph="SELECT * FRO... login_info" />
-                <marker date="1512024565560" expanded="true" signature="1086:1130" ph="SELECT * FRO... login_info" />
-                <marker date="1512024565560" expanded="true" signature="1086:1143" ph="SELECT * FRO... login_info" />
-                <marker date="1512024565560" expanded="true" signature="1086:1324" ph="SELECT * FRO... login_info" />
+                <marker date="1512047106664" expanded="true" signature="458:509" ph="SELECT * FRO... login_info" />
+                <marker date="1512047106664" expanded="true" signature="1086:1130" ph="SELECT * FRO... login_info" />
+                <marker date="1512047106664" expanded="true" signature="1086:1143" ph="SELECT * FRO... login_info" />
+                <marker date="1512047106664" expanded="true" signature="1086:1591" ph="SELECT * FRO... login_info" />
+                <marker date="1512047106664" expanded="true" signature="1384:1398" ph="..." />
+                <marker date="1512047106664" expanded="true" signature="1571:1590" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,8 +132,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="174" />
+    <option name="x" value="82" />
+    <option name="y" value="309" />
     <option name="width" value="1292" />
     <option name="height" value="650" />
   </component>
@@ -198,15 +197,15 @@
       <workItem from="1511764902073" duration="1138000" />
       <workItem from="1511841220114" duration="10968000" />
       <workItem from="1511961002553" duration="6187000" />
-      <workItem from="1512017791970" duration="6415000" />
+      <workItem from="1512017791970" duration="11128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28339000" />
+    <option name="totallyTimeSpent" value="33052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="174" width="1292" height="650" extended-state="0" />
+    <frame x="82" y="309" width="1292" height="650" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960753" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -501,13 +500,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seekuser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+        <state relative-caret-position="422">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
-            <marker date="1512024565560" expanded="true" signature="458:509" ph="SELECT * FRO... login_info" />
-            <marker date="1512024565560" expanded="true" signature="1086:1130" ph="SELECT * FRO... login_info" />
-            <marker date="1512024565560" expanded="true" signature="1086:1143" ph="SELECT * FRO... login_info" />
-            <marker date="1512024565560" expanded="true" signature="1086:1324" ph="SELECT * FRO... login_info" />
+            <marker date="1512047106664" expanded="true" signature="458:509" ph="SELECT * FRO... login_info" />
+            <marker date="1512047106664" expanded="true" signature="1086:1130" ph="SELECT * FRO... login_info" />
+            <marker date="1512047106664" expanded="true" signature="1086:1143" ph="SELECT * FRO... login_info" />
+            <marker date="1512047106664" expanded="true" signature="1086:1591" ph="SELECT * FRO... login_info" />
+            <marker date="1512047106664" expanded="true" signature="1384:1398" ph="..." />
+            <marker date="1512047106664" expanded="true" signature="1571:1590" ph="..." />
           </folding>
         </state>
       </provider>

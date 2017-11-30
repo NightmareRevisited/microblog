@@ -47,9 +47,19 @@ if ($seekstr) {
     $sql2 = "SELECT * FROM login_info WHERE username LIKE '%$seekstr%'";
     $seekresult = $conn->query($sql2);
     $seek_rownum = $seekresult->num_rows;
-    echo "一共有$seek_rownum"."个相关用户";
-    $rows = $seekresult->fetch_assoc();
+    if ($seek_rownum >0) {
+        echo "一共有$seek_rownum"."个相关用户"."<br>";
+        while ($rows = $seekresult->fetch_assoc()) {
+
+            echo "<li style='margin:20px 0;'>" . $rows['username'] ."&nbsp&nbsp&nbsp&nbsp"."<input type='button' value='发送好友请求' onclick=''/>" . "</li>";
+        }
+    }
+    else {
+        echo "没有查找到相关用户!";
+    }
+
 }
+
 ?>
 
 </body>
