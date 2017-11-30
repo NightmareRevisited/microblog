@@ -8,7 +8,8 @@
 
 error_reporting(E_ALL^E_NOTICE);
 $username=$_GET['username'];
-$password=base64_decode($_GET['password']);
+$secret_password = $_GET['password'];
+$password=base64_decode($secret_password);
 $servername = "localhost:3306";
 $sqlname = "root";
 $sqlpassword = "Diabl0s3";
@@ -48,16 +49,42 @@ if ($seekstr) {
     $seekresult = $conn->query($sql2);
     $seek_rownum = $seekresult->num_rows;
     if ($seek_rownum >0) {
-        echo "一共有$seek_rownum"."个相关用户"."<br>";
-        while ($rows = $seekresult->fetch_assoc()) {
 
-            echo "<li style='margin:20px 0;'>" . $rows['username'] ."&nbsp&nbsp&nbsp&nbsp"."<input type='button' value='发送好友请求' onclick=''/>" . "</li>";
+        while ($rows = $seekresult->fetch_assoc()) {
+            $namelist = $rows['username'];
+            if ($namelist!=$username) {
+                echo "<li style='margin:20px 0;'>" . "<form action=\"seekuser.php?username=$username&password=$secret_password\" method=\"post\">" . "<input type='text' name='searchname' value=$namelist style='border:none;' readonly='true'>" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='发送好友请求' />" . "</form>" . "</li>";
+            }
+            else {
+                $seek_rownum-=1;
+            }
         }
+        echo "一共有$seek_rownum"."个相关用户"."<br>";
     }
     else {
         echo "没有查找到相关用户!";
     }
 
+}
+
+?>
+
+<?php
+$search_name = $_POST['searchname'];
+if ($search_name) {
+    $sql3 = "SELECT * FROM friendrequest WHERE touser='$search_name' and fromuser='$username'";
+    $sql4 = "INSERT INTO friendrequest (touser,fromuser,readstatus) VALUES ('$search_name','$username',0)";
+    $addresult_1 = $conn->query($sql3);
+    if ($addresult_1->num_rows > 0) {
+        echo "无法重复发送好友请求，等待对方处理中！";
+    }
+    else {
+        if ($conn->query($sql4) === TRUE) {
+            echo "好友请求已发送！";
+        } else {
+            echo "Error:" . $sql . "<br>" . $conn->error;
+        }
+    }
 }
 
 ?>
