@@ -37,7 +37,8 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
 <body>
 
 <?php
-$sql3 = "SELECT * FROM friendrequest where username='$username' and readstatus='0'";
+
+$sql3 = "SELECT * FROM friendrequest where touser='$username' and readstatus='0'";
 $fresult = $conn->query($sql3);
 
 ?>
