@@ -53,7 +53,15 @@ if ($seekstr) {
         while ($rows = $seekresult->fetch_assoc()) {
             $namelist = $rows['username'];
             if ($namelist!=$username) {
-                echo "<li style='margin:20px 0;'>" . "<form action=\"seekuser.php?username=$username&password=$secret_password\" method=\"post\">" . "<input type='text' name='searchname' value=$namelist style='border:none;' readonly='true'>" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='发送好友请求' />" . "</form>" . "</li>";
+                if ($conn->query("SELECT * FROM relation WHERE username='$username' and friendname='$namelist'")->num_rows > 0 ) {
+                    echo "<li style='margin:20px 0;'>" . $namelist . "&nbsp&nbsp&nbsp" . "您的好友" . "</li>";
+                }
+                elseif ($conn->query("SELECT * FROM friendrequest WHERE touser='$namelist' and fromuser='$username'")->num_rows > 0) {
+                    echo "<li style='margin:20px 0;'>" . $namelist . "&nbsp&nbsp&nbsp" . "好友请求等待处理中" . "</li>";
+                }
+                else {
+                    echo "<li style='margin:20px 0;'>" . "<form action=\"seekuser.php?username=$username&password=$secret_password\" method=\"post\">" . "<input type='text' name='searchname' value=$namelist style='border:none;' readonly='true'>" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='发送好友请求' />" . "</form>" . "</li>";
+                }
             }
             else {
                 $seek_rownum-=1;

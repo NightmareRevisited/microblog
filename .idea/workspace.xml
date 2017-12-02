@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f5accc-b57e-4afc-adce-4f83ac03281e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messagebox.php" afterPath="$PROJECT_DIR$/messagebox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seekuser.php" afterPath="$PROJECT_DIR$/seekuser.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messagebox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messagebox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messagebox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="1357">
               <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding>
                 <marker date="1512201684513" expanded="true" signature="490:541" ph="SELECT * FRO... login_info" />
@@ -108,18 +107,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seekuser.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="seekuser.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seekuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="55" column="331" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="331" />
+            <state relative-caret-position="427">
+              <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
               <folding>
-                <marker date="1512065506720" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
-                <marker date="1512065506720" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
-                <marker date="1512065506720" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
-                <marker date="1512065506720" expanded="true" signature="1461:1475" ph="..." />
-                <marker date="1512065506720" expanded="true" signature="1638:1650" ph="..." />
-                <marker date="1512065506720" expanded="true" signature="2128:2220" ph="INSERT INTO friendrequest... " />
+                <marker date="1512220246458" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
+                <marker date="1512220246458" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
+                <marker date="1512220246458" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
+                <marker date="1512220246458" expanded="true" signature="1462:1511" ph="SELECT * FRO... relation" />
+                <marker date="1512220246458" expanded="true" signature="1462:1538" ph="SELECT * FRO... relation" />
+                <marker date="1512220246458" expanded="true" signature="1596:1610" ph="..." />
+                <marker date="1512220246458" expanded="true" signature="1722:1774" ph="SELECT * FRO... friendrequest" />
+                <marker date="1512220246458" expanded="true" signature="1722:1799" ph="SELECT * FRO... friendrequest" />
+                <marker date="1512220246458" expanded="true" signature="1856:1870" ph="..." />
+                <marker date="1512220246458" expanded="true" signature="2009:2023" ph="..." />
+                <marker date="1512220246458" expanded="true" signature="2186:2198" ph="..." />
+                <marker date="1512220246458" expanded="true" signature="2598:2678" ph="SELECT * FRO... friendrequest" />
+                <marker date="1512220246458" expanded="true" signature="2694:2786" ph="INSERT INTO friendrequest... " />
               </folding>
             </state>
           </provider>
@@ -137,13 +143,13 @@
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/welcome.php" />
         <option value="$PROJECT_DIR$/insertUser.php" />
-        <option value="$PROJECT_DIR$/seekuser.php" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/2313.php" />
         <option value="$PROJECT_DIR$/t.php" />
         <option value="$PROJECT_DIR$/te.php" />
         <option value="$PROJECT_DIR$/messagebox.php" />
+        <option value="$PROJECT_DIR$/seekuser.php" />
       </list>
     </option>
   </component>
@@ -154,9 +160,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP (1)" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="331" />
-    <option name="y" value="49" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="504" />
+    <option name="y" value="55" />
     <option name="width" value="1292" />
     <option name="height" value="973" />
   </component>
@@ -239,15 +245,15 @@
       <workItem from="1511961002553" duration="6187000" />
       <workItem from="1512017791970" duration="16820000" />
       <workItem from="1512103340335" duration="4887000" />
-      <workItem from="1512192553855" duration="6156000" />
+      <workItem from="1512192553855" duration="7748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49787000" />
+    <option name="totallyTimeSpent" value="51379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="49" width="1292" height="973" extended-state="1" />
+    <frame x="504" y="55" width="1292" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960753" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -338,12 +344,19 @@
         <state relative-caret-position="2220">
           <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
           <folding>
-            <marker date="1512065506720" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1461:1475" ph="..." />
-            <marker date="1512065506720" expanded="true" signature="1638:1650" ph="..." />
-            <marker date="1512065506720" expanded="true" signature="2128:2220" ph="INSERT INTO friendrequest... " />
+            <marker date="1512220246458" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1462:1511" ph="SELECT * FRO... relation" />
+            <marker date="1512220246458" expanded="true" signature="1462:1538" ph="SELECT * FRO... relation" />
+            <marker date="1512220246458" expanded="true" signature="1596:1610" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="1722:1774" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="1722:1799" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="1856:1870" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2009:2023" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2186:2198" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2598:2678" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="2694:2786" ph="INSERT INTO friendrequest... " />
           </folding>
         </state>
       </provider>
@@ -435,12 +448,19 @@
         <state relative-caret-position="2220">
           <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
           <folding>
-            <marker date="1512065506720" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1461:1475" ph="..." />
-            <marker date="1512065506720" expanded="true" signature="1638:1650" ph="..." />
-            <marker date="1512065506720" expanded="true" signature="2128:2220" ph="INSERT INTO friendrequest... " />
+            <marker date="1512220246458" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1462:1511" ph="SELECT * FRO... relation" />
+            <marker date="1512220246458" expanded="true" signature="1462:1538" ph="SELECT * FRO... relation" />
+            <marker date="1512220246458" expanded="true" signature="1596:1610" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="1722:1774" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="1722:1799" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="1856:1870" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2009:2023" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2186:2198" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2598:2678" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="2694:2786" ph="INSERT INTO friendrequest... " />
           </folding>
         </state>
       </provider>
@@ -701,21 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seekuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="55" column="331" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="331" />
-          <folding>
-            <marker date="1512065506720" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
-            <marker date="1512065506720" expanded="true" signature="1461:1475" ph="..." />
-            <marker date="1512065506720" expanded="true" signature="1638:1650" ph="..." />
-            <marker date="1512065506720" expanded="true" signature="2128:2220" ph="INSERT INTO friendrequest... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insertUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -729,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/messagebox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="1357">
           <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
             <marker date="1512201684513" expanded="true" signature="490:541" ph="SELECT * FRO... login_info" />
@@ -753,6 +758,28 @@
             <marker date="1512201684513" expanded="true" signature="2162:2234" ph="SELECT * FRO... friendrequest" />
             <marker date="1512201684513" expanded="true" signature="2316:2384" ph="..." />
             <marker date="1512201684513" expanded="true" signature="2534:2548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <marker date="1512220246458" expanded="true" signature="495:546" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1123:1167" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1123:1180" ph="SELECT * FRO... login_info" />
+            <marker date="1512220246458" expanded="true" signature="1462:1511" ph="SELECT * FRO... relation" />
+            <marker date="1512220246458" expanded="true" signature="1462:1538" ph="SELECT * FRO... relation" />
+            <marker date="1512220246458" expanded="true" signature="1596:1610" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="1722:1774" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="1722:1799" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="1856:1870" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2009:2023" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2186:2198" ph="..." />
+            <marker date="1512220246458" expanded="true" signature="2598:2678" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512220246458" expanded="true" signature="2694:2786" ph="INSERT INTO friendrequest... " />
           </folding>
         </state>
       </provider>
