@@ -8,6 +8,7 @@
 
 error_reporting(E_ALL^E_NOTICE);
 $username=$_GET['username'];
+$secret_password=$_GET['password'];
 $password=base64_decode($_GET['password']);
 $servername = "localhost:3306";
 $sqlname = "root";
@@ -35,15 +36,60 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
 <body>
 
 <?php
-$sql2 = "SELECT * FROM friendrequest where username='$username' and readstatus='0'";
+if ($_POST['searchname']) {
+    $acceptuser = $_POST['searchname'];
+    if ($_POST['refuse']) {
+        $friend_request_operation = -1;
+    } elseif ($_POST['accept']) {
+        $friend_request_operation = 1;
+        $sql5 = "INSERT INTO relation (username,friendname) VALUES ('$username','$acceptuser')";
+        $sql6 = "INSERT INTO relation (username,friendname) VALUES ('$acceptuser','$username')";
+        $conn->query($sql5);
+        $conn->query($sql6);
+    }
+    $sql4 = "UPDATE friendrequest SET readstatus='$friend_request_operation' WHERE touser='$username' and fromuser='$acceptuser'";
+    $conn->query($sql4);
+}
+?>
+
+
+<?php
+$sql2 = "SELECT * FROM friendrequest where touser='$username' and readstatus='0'";
 $fresult = $conn->query($sql2);
 $unread_rownum = $fresult->num_rows;
+
 echo "<ul>";
-for ($i=0;$i<$unread_rownum;$i++) {
+
+while ($rows = $fresult->fetch_assoc()) {
+    $fromuser = $rows['fromuser'];
+    echo "<li style='margin:20px 0;'>" . "<form action=\"messagebox.php?username=$username&password=$secret_password\" method=\"post\">" . "<input type='text' name='searchname' value=$fromuser style='border:none;font-size:18;width: 100px;' readonly='true'>"  ."&nbsp&nbsp&nbsp&nbsp". "<input type='submit' name='accept' value='接受' />" ."&nbsp&nbsp&nbsp"."<input type='submit' name='refuse' value='拒绝' />" . "</form>" . "</li>";
 
 }
 echo "</ul>";
 ?>
+
+<?php
+$sql3 = "SELECT * FROM friendrequest where touser='$username' and readstatus!='0'";
+$fresult = $conn->query($sql3);
+$unread_rownum = $fresult->num_rows;
+
+echo "<ul>";
+
+while ($rows = $fresult->fetch_assoc()) {
+    $fromuser = $rows['fromuser'];
+    if ($rows['readstatus']==1) {
+        $readstatus = '已接受';
+    }
+    else {
+        $readstatus = '已拒绝';
+    }
+    echo "<li style='margin:20px 0;'>" .$fromuser ."&nbsp&nbsp&nbsp".$readstatus. "</li>";
+
+}
+echo "</ul>";
+$conn->close();
+?>
+
 
 </body>
 </html>
