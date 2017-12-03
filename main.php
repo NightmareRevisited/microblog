@@ -72,11 +72,25 @@ if ($_POST['content']) {
         echo "Error:" . $sql2 . "<br>" . $conn->error;
     }
 }
-$conn->close();
+
 
 ?>
 <hr>
 
+<ul>
+<?php
+$sql4 = "SELECT * FROM micro_blog WHERE micro_blog.username IN ( SELECT DISTINCT friendname FROM relation WHERE relation.username='$username') or micro_blog.username='$username' ORDER BY mb_time DESC";
+$mbresult = $conn->query($sql4);
+
+while ($row = $mbresult->fetch_assoc()) {
+    $mb_id = $row['blogid'];
+    $mb_content = $row['mb_content'];
+    $mb_username = $row['username'];
+    $mb_time = $row['mb_time'];
+    echo "<li style='margin:20px 0;'>" .$mb_username ."<br>"."内容:".$mb_content."<br>".$mb_time. "</li>";
+}
+?>
+</ul>
 
 </body>
 </html>
