@@ -8,6 +8,7 @@
 
 error_reporting(E_ALL^E_NOTICE);
 $username=$_GET['username'];
+$secret_password = $_GET['password'];
 $password=base64_decode($_GET['password']);
 $servername = "localhost:3306";
 $sqlname = "root";
@@ -51,7 +52,7 @@ $fresult = $conn->query($sql3);
 
 
 <br>
-<form action ='main.php?username=<?php echo $username; ?>' method = 'post'>
+<form action ='main.php?username=<?php echo $username; ?>&password=<?php echo $secret_password;?>' method = 'post'>
     <label style="vertical-align: top"> 发布状态： </label>
     <textarea rows='8' cols="50" wrap="virtual" name="content"></textarea>
     <br>
@@ -74,6 +75,8 @@ if ($_POST['content']) {
 $conn->close();
 
 ?>
+<hr>
+
 
 </body>
 </html>
