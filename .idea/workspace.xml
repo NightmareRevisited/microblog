@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f5accc-b57e-4afc-adce-4f83ac03281e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messagebox.php" afterPath="$PROJECT_DIR$/messagebox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seekuser.php" afterPath="$PROJECT_DIR$/seekuser.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,19 +91,20 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="478">
+              <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
               <folding>
                 <element signature="e#7#108#0#PHP" expanded="true" />
-                <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-                <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-                <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-                <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-                <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-                <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-                <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-                <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-                <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+                <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+                <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+                <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+                <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+                <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+                <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+                <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+                <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+                <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+                <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
               </folding>
             </state>
           </provider>
@@ -166,8 +166,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP (1)" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
-    <option name="y" value="55" />
+    <option name="x" value="333" />
+    <option name="y" value="98" />
     <option name="width" value="1292" />
     <option name="height" value="964" />
   </component>
@@ -255,15 +255,15 @@
       <workItem from="1512103340335" duration="4887000" />
       <workItem from="1512192553855" duration="9132000" />
       <workItem from="1512278899711" duration="10449000" />
-      <workItem from="1512368967514" duration="2603000" />
+      <workItem from="1512368967514" duration="7832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65815000" />
+    <option name="totallyTimeSpent" value="71044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="55" width="1292" height="964" extended-state="0" />
+    <frame x="333" y="98" width="1292" height="964" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960753" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -303,15 +303,16 @@
           <caret line="89" column="83" lean-forward="false" selection-start-line="89" selection-start-column="83" selection-end-line="89" selection-end-column="83" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -383,15 +384,16 @@
           <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -490,15 +492,16 @@
           <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -597,15 +600,16 @@
           <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -693,15 +697,16 @@
           <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -760,15 +765,16 @@
           <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -816,15 +822,16 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -845,15 +852,16 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>
@@ -952,19 +960,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="478">
+          <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1512373362299" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1512373362299" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
-            <marker date="1512373362299" expanded="true" signature="1504:1522" ph="..." />
-            <marker date="1512373362299" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
-            <marker date="1512373362299" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
-            <marker date="1512373362299" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
-            <marker date="1512373362299" expanded="true" signature="2504:2518" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1512410456123" expanded="true" signature="864:916" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="864:935" ph="SELECT * FRO... friendrequest" />
+            <marker date="1512410456123" expanded="true" signature="1504:1522" ph="..." />
+            <marker date="1512410456123" expanded="true" signature="1800:1892" ph="INSERT INTO login_info... " />
+            <marker date="1512410456123" expanded="true" signature="2078:2210" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2078:2268" ph="SELECT * FRO... micro_blog" />
+            <marker date="1512410456123" expanded="true" signature="2134:2210" ph="SELECT DISTI... relation" />
+            <marker date="1512410456123" expanded="true" signature="2494:2553" ph="SELECT count... zan" />
+            <marker date="1512410456123" expanded="true" signature="2660:2674" ph="..." />
           </folding>
         </state>
       </provider>

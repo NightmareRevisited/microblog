@@ -90,7 +90,10 @@ while ($row = $mbresult->fetch_assoc()) {
     $mb_content = $row['mb_content'];
     $mb_username = $row['username'];
     $mb_time = $row['mb_time'];
-    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" .$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞()' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" . "</form>". "</li>";
+    $sqlx="SELECT count(mb_id) as zannum from zan where mb_id='$mb_id'";
+    $xresult = $conn->query($sqlx)->fetch_assoc();
+    $zannum=$xresult['zannum'];
+    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" ."<input type='hidden' name='id' value='$mb_id'>".$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞($zannum)' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" . "</form>". "</li>";
 }
 ?>
 </ul>
