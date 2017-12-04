@@ -46,6 +46,9 @@ $fresult = $conn->query($sql3);
 <a href="http://microblog.com/messagebox.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">好友请求(<?php echo $fresult->num_rows;?>)</a>
 &nbsp&nbsp&nbsp
 <a href="http://microblog.com/seekuser.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">查找用户</a>
+&nbsp&nbsp&nbsp
+<a href="login.php">登出</a>
+
 <style>
     a:visited {color: blue}
 </style>
@@ -87,7 +90,7 @@ while ($row = $mbresult->fetch_assoc()) {
     $mb_content = $row['mb_content'];
     $mb_username = $row['username'];
     $mb_time = $row['mb_time'];
-    echo "<li style='margin:20px 0;'>" .$mb_username ."<br>"."内容:".$mb_content."<br>".$mb_time. "</li>";
+    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" .$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞()' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" . "</form>". "</li>";
 }
 ?>
 </ul>

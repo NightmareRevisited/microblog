@@ -35,6 +35,13 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
 </head>
 <body>
 
+<a href="http://microblog.com/main.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">返回主界面</a>
+&nbsp&nbsp&nbsp
+
+<style>
+    a:visited {color: blue}
+</style>
+
 <?php
 if ($_POST['searchname']) {
     $acceptuser = $_POST['searchname'];
