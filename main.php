@@ -80,6 +80,31 @@ if ($_POST['content']) {
 ?>
 <hr>
 
+<?php
+$zon = $_POST['zan'];
+$comment = $_POST['comment'];
+$this_id = $_POST['id'];
+if ($zon) {
+    $sql5 = "SELECT * FROM zan WHERE username='$username' and mb_id = '$this_id'";
+    if ($conn->query($sql5)->num_rows>0) {
+        $sql6 = "DELETE FROM zan WHERE username='$username' and mb_id = '$this_id'";
+        $conn->query($sql6);
+        echo "已取消点赞！<br>";
+    }
+    else {
+        $sql6 = "INSERT INTO zan (username,mb_id) VALUES ('$username','$this_id')";
+        $conn->query($sql6);
+        echo "已点赞！<br>";
+    }
+}
+if ($comment) {
+    $sql7 = "INSERT INTO comment (mb_id,comment_username,mb_comment) VALUES ('$this_id','$username','$comment')";
+    $conn->query($sql7);
+    echo "评论成功！<br>";
+}
+
+?>
+
 <ul>
 <?php
 $sql4 = "SELECT * FROM micro_blog WHERE micro_blog.username IN ( SELECT DISTINCT friendname FROM relation WHERE relation.username='$username') or micro_blog.username='$username' ORDER BY mb_time DESC";
@@ -93,7 +118,14 @@ while ($row = $mbresult->fetch_assoc()) {
     $sqlx="SELECT count(mb_id) as zannum from zan where mb_id='$mb_id'";
     $xresult = $conn->query($sqlx)->fetch_assoc();
     $zannum=$xresult['zannum'];
-    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" ."<input type='hidden' name='id' value='$mb_id'>".$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞($zannum)' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" . "</form>". "</li>";
+    $sqlfc = "SELECT * FROM zan WHERE username='$username' and mb_id='$mb_id'";
+    if ($conn->query($sqlfc)->num_rows>0) {
+        $color = 'red';
+    }
+    else {
+        $color = 'black';
+    }
+    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" ."<input type='hidden' name='id' value='$mb_id'>".$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞($zannum)' style='color: $color' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" . "</form>". "</li>";
 }
 ?>
 </ul>
