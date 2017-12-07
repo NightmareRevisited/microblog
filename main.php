@@ -26,7 +26,6 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
     header('Location:http://microblog.com/login.php');
 }
 ?>
-
 <html>
 <head>
     <title>
