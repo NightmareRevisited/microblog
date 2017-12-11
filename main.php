@@ -33,6 +33,42 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
         echo $username."的主页";
         ?>
     </title>
+    <script>
+        function loadComment(commentid,mb_id,cable) {
+            var aj;
+            if (window.XMLHttpRequest) {
+                aj = new XMLHttpRequest();
+            }
+            else {
+                aj = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            aj.onreadystatechange=function () {
+                if (aj.readyState == 4 && aj.status == 200) {
+                    document.getElementById(commentid).innerHTML = aj.responseText;
+                }
+            }
+            aj.open('get','comment.php?mbid='+mb_id+'&cable='+cable,true);
+            aj.send();
+        }
+
+        function reply(cid,commentid) {
+            var aj;
+            var content = document.getElementById(cid).value;
+            if (window.XMLHttpRequest) {
+                aj = new XMLHttpRequest();
+            }
+            else {
+                aj = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            aj.onreadystatechange=function () {
+                if (aj.readyState == 4 && aj.status == 200) {
+                    document.getElementById(commentid).innerHTML = aj.responseText;
+                }
+            }
+            aj.open('get','comment.php?cid='+cid+'&content='+content,true);
+            aj.send();
+        }
+    </script>
 </head>
 <body>
 
@@ -108,12 +144,15 @@ if ($comment) {
 <?php
 $sql4 = "SELECT * FROM micro_blog WHERE micro_blog.username IN ( SELECT DISTINCT friendname FROM relation WHERE relation.username='$username') or micro_blog.username='$username' ORDER BY mb_time DESC";
 $mbresult = $conn->query($sql4);
-
+$comnum = 0;
 while ($row = $mbresult->fetch_assoc()) {
+    $comnum+=1;
+    $commentid = 'comment'.$comnum;
     $mb_id = $row['blogid'];
     $mb_content = $row['mb_content'];
     $mb_username = $row['username'];
     $mb_time = $row['mb_time'];
+    $cable = $mb_username == $username;
     $sqlx="SELECT count(mb_id) as zannum from zan where mb_id='$mb_id'";
     $xresult = $conn->query($sqlx)->fetch_assoc();
     $zannum=$xresult['zannum'];
@@ -124,7 +163,7 @@ while ($row = $mbresult->fetch_assoc()) {
     else {
         $color = 'black';
     }
-    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" ."<input type='hidden' name='id' value='$mb_id'>".$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞($zannum)' style='color: $color' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" . "</form>". "</li>";
+    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" ."<input type='hidden' name='id' value='$mb_id'>".$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞($zannum)' style='color: $color' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" ."&nbsp&nbsp&nbsp&nbsp"."<button type='button' onclick='loadComment(\"$commentid\",\"$mb_id\",\"$cable\")'>查看评论</button>"."<br>"."<div id='$commentid'></div>". "</form>". "</li>";
 }
 ?>
 </ul>

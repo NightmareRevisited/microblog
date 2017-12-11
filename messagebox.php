@@ -76,8 +76,10 @@ echo "</ul>";
 ?>
 
 <?php
+
 $sql3 = "SELECT * FROM friendrequest where touser='$username' and readstatus!='0'";
 $fresult = $conn->query($sql3);
+
 $unread_rownum = $fresult->num_rows;
 
 echo "<ul>";
