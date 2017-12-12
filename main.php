@@ -51,7 +51,7 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
             aj.send();
         }
 
-        function reply(cid,commentid) {
+        function reply(cid,commentid,mbid,cable) {
             var aj;
             var content = document.getElementById(cid).value;
             if (window.XMLHttpRequest) {
@@ -65,7 +65,7 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
                     document.getElementById(commentid).innerHTML = aj.responseText;
                 }
             }
-            aj.open('get','comment.php?cid='+cid+'&content='+content,true);
+            aj.open('get','comment.php?cid='+cid+'&content='+content+'&mbid='+mbid+'&cable='+cable,true);
             aj.send();
         }
     </script>
@@ -78,7 +78,7 @@ $sql3 = "SELECT * FROM friendrequest where touser='$username' and readstatus='0'
 $fresult = $conn->query($sql3);
 
 ?>
-<a href="http://microblog.com/messagebox.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">好友请求(<?php echo $fresult->num_rows;?>)</a>
+<a href="http://microblog.com/messagebox.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">好友(<?php echo $fresult->num_rows;?>)</a>
 &nbsp&nbsp&nbsp
 <a href="http://microblog.com/seekuser.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">查找用户</a>
 &nbsp&nbsp&nbsp
@@ -144,11 +144,9 @@ if ($comment) {
 <?php
 $sql4 = "SELECT * FROM micro_blog WHERE micro_blog.username IN ( SELECT DISTINCT friendname FROM relation WHERE relation.username='$username') or micro_blog.username='$username' ORDER BY mb_time DESC";
 $mbresult = $conn->query($sql4);
-$comnum = 0;
 while ($row = $mbresult->fetch_assoc()) {
-    $comnum+=1;
-    $commentid = 'comment'.$comnum;
     $mb_id = $row['blogid'];
+    $commentid = 'comment'.$mb_id;
     $mb_content = $row['mb_content'];
     $mb_username = $row['username'];
     $mb_time = $row['mb_time'];

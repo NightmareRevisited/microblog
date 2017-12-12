@@ -7,6 +7,9 @@
 
 error_reporting(E_ALL^E_NOTICE);
 $mb_id = $_GET['mbid'];
+$cid = $_GET['cid'];
+$content = $_GET['content'];
+$comment_id = "comment".$mb_id;
 $cable = $_GET['cable'];
 $servername = "localhost:3306";
 $sqlname = "root";
@@ -16,6 +19,13 @@ $conn = new mysqli($servername,$sqlname,$sqlpassword,$dbname);
 
 if ($conn->connect_error) {
     die("连接失败:".$conn->connect_error);
+}
+
+
+if ($content) {
+    $cid = explode('d',$cid)[1];
+    $sql1 = "UPDATE comment SET mb_reply2comment='$content' WHERE cid='$cid'";
+    $conn->query($sql1);
 }
 
 $sql = "SELECT * FROM comment WHERE mb_id='$mb_id'";
@@ -29,11 +39,11 @@ if ($result->num_rows > 0){
         $cid = 'cid'.$row['cid'];
         $response.="<li>".$comment_author.":&nbsp&nbsp".$comment_content."<br>";
         if ($reply_content) {
-            $response.="&nbsp&nbsp"."回复:"."&nbsp&nbsp".$reply_content;
+            $response.="&nbsp&nbsp"."博主回复:"."&nbsp&nbsp".$reply_content;
         }
         else {
             if ($cable==1) {
-                $response.="<input type='text' id='$cid'>"."&nbsp&nbsp&nbsp&nbsp"."<button type='button' onclick='reply(\"$cid\")'>回复</button>";
+                $response.="<input type='text' id='$cid'>"."&nbsp&nbsp&nbsp&nbsp"."<button type='button' onclick='reply(\"$cid\",\"$comment_id\",\"$mb_id\",\"$cable\")'>回复</button>";
             }
         }
         $response.="</li>";

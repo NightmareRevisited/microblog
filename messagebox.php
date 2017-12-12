@@ -37,7 +37,8 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
 
 <a href="http://microblog.com/main.php?username=<?php echo $username;?>&password=<?php echo base64_encode($password);?>">返回主界面</a>
 &nbsp&nbsp&nbsp
-
+<br>
+<h2>好友请求</h2>
 <style>
     a:visited {color: blue}
 </style>
@@ -96,9 +97,21 @@ while ($rows = $fresult->fetch_assoc()) {
 
 }
 echo "</ul>";
-$conn->close();
+
+
 ?>
-
-
+<hr>
+<br>
+<h2>好友列表</h2>
+<ul>
+<?php
+    $sql7 = "SELECT * FROM relation WHERE username='$username'";
+    $friend = $conn->query($sql7);
+    while ($row = $friend->fetch_assoc()){
+        $friendname = $row['friendname'];
+        echo "<li>$friendname&nbsp;&nbsp;&nbsp;<button type='button' onclick='unfriend(\"$username\",\"$friendname\")'>删除好友</button></li><br>";
+    }
+?>
+</ul>
 </body>
 </html>
