@@ -32,6 +32,24 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
 <head>
     <meta charset="utf-8">
     <title>信息箱</title>
+    <script>
+        function unfriend(username,friendname) {
+            var aj;
+            if (window.XMLHttpRequest) {
+                aj = new XMLHttpRequest();
+            }
+            else {
+                aj = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            aj.onreadystatechange=function () {
+                if (aj.readyState == 4 && aj.status == 200) {
+                    document.getElementById('friendlist').innerHTML = aj.responseText;
+                }
+            }
+            aj.open('get','unfriend.php?username='+username+'&friendname='+friendname,true);
+            aj.send();
+        }
+    </script>
 </head>
 <body>
 
@@ -104,6 +122,7 @@ echo "</ul>";
 <br>
 <h2>好友列表</h2>
 <ul>
+    <div id="friendlist">
 <?php
     $sql7 = "SELECT * FROM relation WHERE username='$username'";
     $friend = $conn->query($sql7);
@@ -112,6 +131,7 @@ echo "</ul>";
         echo "<li>$friendname&nbsp;&nbsp;&nbsp;<button type='button' onclick='unfriend(\"$username\",\"$friendname\")'>删除好友</button></li><br>";
     }
 ?>
+    </div>
 </ul>
 </body>
 </html>
