@@ -154,6 +154,9 @@ while ($row = $mbresult->fetch_assoc()) {
     $sqlx="SELECT count(mb_id) as zannum from zan where mb_id='$mb_id'";
     $xresult = $conn->query($sqlx)->fetch_assoc();
     $zannum=$xresult['zannum'];
+    $sqlcn = "SELECT count(mb_id) as cn FROM comment WHERE mb_id='$mb_id'";
+    $cnr = $conn->query($sqlcn)->fetch_assoc();
+    $commentnum = $cnr['cn'];
     $sqlfc = "SELECT * FROM zan WHERE username='$username' and mb_id='$mb_id'";
     if ($conn->query($sqlfc)->num_rows>0) {
         $color = 'red';
@@ -161,7 +164,7 @@ while ($row = $mbresult->fetch_assoc()) {
     else {
         $color = 'black';
     }
-    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" ."<input type='hidden' name='id' value='$mb_id'>".$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞($zannum)' style='color: $color' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" ."&nbsp&nbsp&nbsp&nbsp"."<button type='button' onclick='loadComment(\"$commentid\",\"$mb_id\",\"$cable\")'>查看评论</button>"."<br>"."<div id='$commentid'></div>". "</form>". "</li>";
+    echo "<li style='margin:20px 0;'>" ."<form action=\"main.php?username=$username&password=$secret_password\" method=\"post\">" ."<input type='hidden' name='id' value='$mb_id'>".$mb_username ."<br>"."内容:".$mb_content."&nbsp&nbsp&nbsp"."<input type='submit' name='zan' value='赞($zannum)' style='color: $color' />" ."<br>".$mb_time."<br>"."<input type='text' name='comment'   >" . "&nbsp&nbsp&nbsp&nbsp" . "<input type='submit' value='评论' />" ."&nbsp&nbsp&nbsp&nbsp"."<button type='button' onclick='loadComment(\"$commentid\",\"$mb_id\",\"$cable\")'>查看评论($commentnum)</button>"."<br>"."<div id='$commentid'></div>". "</form>". "</li>";
 }
 ?>
 </ul>

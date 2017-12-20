@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47f5accc-b57e-4afc-adce-4f83ac03281e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="messagebox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messagebox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="1320">
               <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
               <folding>
                 <marker date="1513314701282" expanded="true" signature="490:510" ph="SELECT * FRO... login_info" />
@@ -60,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unfriend.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="unfriend.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unfriend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="202">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <marker date="1513315132613" expanded="true" signature="451:499" ph="DELETE FROM " />
                 <marker date="1513315132613" expanded="true" signature="451:528" ph="DELETE FROM " />
@@ -112,35 +113,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="412">
+              <caret line="165" column="5" lean-forward="true" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
               <folding>
                 <element signature="e#7#108#0#PHP" expanded="true" />
-                <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-                <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-                <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-                <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-                <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-                <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-                <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-                <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-                <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-                <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-                <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-                <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-                <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-                <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-                <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-                <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-                <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-                <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-                <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-                <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-                <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-                <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
+                <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+                <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+                <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+                <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+                <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+                <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+                <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+                <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+                <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+                <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+                <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+                <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+                <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+                <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+                <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+                <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+                <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+                <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+                <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+                <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+                <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+                <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+                <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
               </folding>
             </state>
           </provider>
@@ -223,9 +225,9 @@
         <option value="$PROJECT_DIR$/a.php" />
         <option value="$PROJECT_DIR$/comment.php" />
         <option value="$PROJECT_DIR$/friendlist.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/messagebox.php" />
         <option value="$PROJECT_DIR$/unfriend.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -283,8 +285,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,11 +358,12 @@
       <workItem from="1512964550873" duration="16717000" />
       <workItem from="1513056596879" duration="6746000" />
       <workItem from="1513313331297" duration="2996000" />
+      <workItem from="1513744514546" duration="431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118850000" />
+    <option name="totallyTimeSpent" value="119281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -442,28 +445,29 @@
           <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-            <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-            <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-            <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-            <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+            <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+            <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+            <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+            <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+            <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -568,28 +572,29 @@
           <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-            <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-            <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-            <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-            <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+            <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+            <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+            <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+            <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+            <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -683,28 +688,29 @@
           <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-            <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-            <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-            <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-            <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+            <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+            <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+            <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+            <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+            <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -763,28 +769,29 @@
           <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-            <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-            <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-            <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-            <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+            <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+            <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+            <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+            <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+            <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -832,28 +839,29 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-            <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-            <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-            <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-            <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+            <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+            <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+            <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+            <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+            <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -874,28 +882,29 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-            <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-            <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-            <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-            <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+            <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+            <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+            <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+            <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+            <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -986,41 +995,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#7#108#0#PHP" expanded="true" />
-            <marker date="1513065225801" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
-            <marker date="1513065225801" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
-            <marker date="1513065225801" expanded="true" signature="2819:2837" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
-            <marker date="1513065225801" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="3611:3627" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3611:3676" ph="DELETE FROM " />
-            <marker date="1513065225801" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
-            <marker date="1513065225801" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
-            <marker date="1513065225801" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
-            <marker date="1513065225801" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
-            <marker date="1513065225801" expanded="true" signature="4751:4814" ph="SELECT * FRO... zan" />
-            <marker date="1513065225801" expanded="true" signature="4955:4969" ph="..." />
-            <marker date="1513065225801" expanded="true" signature="5230:5237" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/messagebox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="1320">
           <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding>
             <marker date="1513314701282" expanded="true" signature="490:510" ph="SELECT * FRO... login_info" />
@@ -1053,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unfriend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="202">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <marker date="1513315132613" expanded="true" signature="451:499" ph="DELETE FROM " />
             <marker date="1513315132613" expanded="true" signature="451:528" ph="DELETE FROM " />
@@ -1064,6 +1041,39 @@
             <marker date="1513315132613" expanded="true" signature="763:769" ph=" " />
             <marker date="1513315132613" expanded="true" signature="769:775" ph=" " />
             <marker date="1513315132613" expanded="true" signature="775:781" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="165" column="5" lean-forward="true" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#108#0#PHP" expanded="true" />
+            <marker date="1513744920491" expanded="true" signature="497:548" ph="SELECT * FRO... login_info" />
+            <marker date="1513744920491" expanded="true" signature="2181:2233" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2181:2252" ph="SELECT * FRO... friendrequest" />
+            <marker date="1513744920491" expanded="true" signature="2819:2837" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="3115:3207" ph="INSERT INTO login_info... " />
+            <marker date="1513744920491" expanded="true" signature="3481:3515" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3522" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3525" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3481:3548" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="3611:3627" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3611:3676" ph="DELETE FROM " />
+            <marker date="1513744920491" expanded="true" signature="3769:3833" ph="INSERT INTO zan... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4002" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4013" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4014" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="3927:4025" ph="INSERT INTO comment... " />
+            <marker date="1513744920491" expanded="true" signature="4102:4292" ph="SELECT * FRO... micro_blog" />
+            <marker date="1513744920491" expanded="true" signature="4158:4234" ph="SELECT DISTI... relation" />
+            <marker date="1513744920491" expanded="true" signature="4592:4651" ph="SELECT count... zan" />
+            <marker date="1513744920491" expanded="true" signature="4751:4810" ph="SELECT count... comment" />
+            <marker date="1513744920491" expanded="true" signature="4905:4968" ph="SELECT * FRO... zan" />
+            <marker date="1513744920491" expanded="true" signature="5109:5123" ph="..." />
+            <marker date="1513744920491" expanded="true" signature="5384:5391" ph="..." />
           </folding>
         </state>
       </provider>
