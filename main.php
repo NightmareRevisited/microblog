@@ -68,6 +68,23 @@ if ($result->num_rows < 1 or $password != $rows["password"]) {
             aj.open('get','comment.php?cid='+cid+'&content='+content+'&mbid='+mbid+'&cable='+cable,true);
             aj.send();
         }
+
+        function show_self_mb(username) {
+            var aj;
+            if (window.XMLHttpRequest) {
+                aj = new XMLHttpRequest();
+            }
+            else {
+                aj = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            aj.onreadystatechange = function () {
+                if (aj.readyState == 4 && aj.status==200) {
+                    document.getElementById("microblog").innerHTML = aj.responseText;
+                }
+            }
+            aj.open('get','selfmb.php?username='+username,true);
+            aj.send();
+        }
     </script>
 </head>
 <body>
@@ -115,7 +132,10 @@ if ($_POST['content']) {
 ?>
 <hr>
 
+<div id="microblog">
+
 <?php
+echo "<button type='button' onclick='show_self_mb(\"$username\")'>我的微博</button>";
 $zon = $_POST['zan'];
 $comment = $_POST['comment'];
 $this_id = $_POST['id'];
@@ -168,6 +188,6 @@ while ($row = $mbresult->fetch_assoc()) {
 }
 ?>
 </ul>
-
+</div>
 </body>
 </html>
